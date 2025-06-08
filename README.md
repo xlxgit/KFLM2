@@ -11,19 +11,18 @@ conda env create -f conda_environment.yml
 ```
 
 ## Directories
-''`markdown
-
+```
 | # | task | Directory  | 
-|: - |:----- |: ----- |
+| :-----| :----- | -----: |
 |1.  | **dataset** | [`dataset`]|
 |2.  | **fine-tuning** | [`fine_tune`]|
 |3.  | **hyperparameter** | [`hyperparameter`]|
 |4.  | **training** | [`task_training`]|
 |5.  | **prompt** | [`prompt`]|
 
-''`
+```
 
-## fine-tuning
+## Fine-tuning
 
 Please fine-tune the LLMs using the ZINC or ChEMBL dataset. In current study, we select the ZINC dataset to fine-tune the DeepSeek Distilled 1.5B, 7B, 8B and ChemDFM. The names of the distilled model checkpoints are: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B (abbreviated as DS_1.5B), deepseek-ai/DeepSeek-R1-Distill-Qwen-7B (abbreviated as DS_7B), deepseek-ai/DeepSeek-R1-Distill-Llama-8B (abbreviated as DS_8B), and OpenDFM/ChemDFM-v1.5-8B)
 
@@ -55,7 +54,7 @@ Model architecture:
 
 model.py contains core model definitions, including two distinct attention mechanisms.
 
-#### Task-Specific Implementation: take SAMPL as the example.
+### Task-Specific Implementation: take SAMPL as the example.
 For the SAMPL dataset, we provide three specialized training pipelines:
 
 **Embedding-based DNN training**: train_combined_base_SAMPL.py
