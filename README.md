@@ -11,6 +11,7 @@ conda env create -f conda_environment.yml
 ```
 
 ## Directories
+''`markdown
 
 | # | task | Directory  | 
 |: - |:----- |: ----- |
@@ -20,7 +21,7 @@ conda env create -f conda_environment.yml
 |4.  | **training** | [`task_training`]|
 |5.  | **prompt** | [`prompt`]|
 
-
+''`
 
 ## fine-tuning
 
@@ -52,7 +53,7 @@ featerize_smiles.py handles conversion of molecules into both LLM-based embeddin
 
 Model architecture:
 
-model.py contains core model definitions, including two distinct attention mechanisms
+model.py contains core model definitions, including two distinct attention mechanisms.
 
 #### Task-Specific Implementation: take SAMPL as the example.
 For the SAMPL dataset, we provide three specialized training pipelines:
