@@ -11,16 +11,16 @@ conda env create -f conda_environment.yml
 ```
 
 ## Directories
-```
+
 | # | task | Directory  | 
-| :-----| :----- | -----: |
+|:-----|:-----|-----:|
 |1.  | **dataset** | [`dataset`]|
 |2.  | **fine-tuning** | [`fine_tune`]|
 |3.  | **hyperparameter** | [`hyperparameter`]|
 |4.  | **training** | [`task_training`]|
 |5.  | **prompt** | [`prompt`]|
 
-```
+
 
 ## Fine-tuning
 
