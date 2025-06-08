@@ -1,0 +1,6 @@
+fold_line,auc
+"fold 1, valid auc = 0.6593, test auc = 0.6386",0.6386
+"fold 2, valid auc = 0.6592, test auc = 0.6337",0.6337
+"fold 3, valid auc = 0.6669, test auc = 0.6628",0.6628
+"fold 4, valid auc = 0.6584, test auc = 0.6599",0.6599
+"fold 5, valid auc = 0.6565, test auc = 0.6539",0.6539

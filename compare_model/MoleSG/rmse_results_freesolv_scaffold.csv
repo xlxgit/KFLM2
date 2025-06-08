@@ -1,0 +1,6 @@
+fold_line,rmse
+"fold 1, valid rmse = 1.6056, test rmse = 3.0421",3.0421
+"fold 2, valid rmse = 1.5979, test rmse = 2.2109",2.2109
+"fold 3, valid rmse = 1.3553, test rmse = 2.4858",2.4858
+"fold 4, valid rmse = 2.2365, test rmse = 1.1724",1.1724
+"fold 5, valid rmse = 0.7678, test rmse = 3.4445",3.4445
