@@ -55,7 +55,7 @@ Model architecture:
 model.py contains core model definitions, including two distinct attention mechanisms.
 
 ### Task-Specific Implementation: take SAMPL as the example.
-For the SAMPL dataset, we provide three specialized training pipelines:
+For the SAMPL dataset, we provide the following training pipelines, which can run directly after installation:
 
 **Embedding-based DNN training**: train_combined_base_SAMPL.py
 
@@ -76,3 +76,9 @@ To further assess model performance, we conduct prompt-based evaluations using l
 ```bash
 python fine_tune_prompt_unsloth_regression.py
 ```
+
+## Todo
+- [x] Clean the codes and remove unuse function
+- [x] Implemente MoE
+- [x] Include 3D information in molecular graph
+
